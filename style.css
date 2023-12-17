@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px dashed gray;
+    display: flex;
+    width: 100%
+}
+.header_container {
+    margin: auto;
+    width: 940px;
+    display: flex;
+}
+.menu {
+margin-left: auto;
+display: flex;
+gap: 35px;
+font-family: 'Open Sans', sans-serif;
+align-items: center;
+}
+.menu > div:hover {
+    color: pink;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header-image {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: pink;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.hero {
+    background-image: url("fondorosa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.hero_content {
+    margin: auto;
+    width: 700px;
+    height: 40px;
+    display: flex;
+}
+.main_hero_container {
+    margin: auto;
+    text-align: center;
+}
+
+.title{
+    margin-bottom: 30px;
+    color: #E00070;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase; 
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.subtitle{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #050304;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 150px;
+    letter-spacing: 2px;
+    text-transform:capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.title_topic{
+    margin: auto;
+    width: 700px;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    text-align:center;
+}
+.information{
+   text-align: center;
+   margin-top: 5px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.title_creators{
+    width: 300px;
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info_creators{
+    margin-top: 5px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 150px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
